@@ -10,18 +10,18 @@
 </head>
 
 <body>
-<form>
+<form method ="POST" action ="register.php">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Identificator</label>
+    <label for="identificator" class="form-label">Identificator</label>
     <input type="text" class="form-control" id="identificator" name="identificator">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Name</label>
-    <input type="text" class="form-control" id="nombre" name="nombre">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="nombre" name="name">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Detail</label>
-    <input type="password" class="form-control" id="detail">
+    <label for="detail" class="form-label">Detail</label>
+    <input type="text" class="form-control" id="detail" name="detail">
   </div>
   <button type="submit" class="btn btn-primary">Registrar</button>
 </form>
